@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atividade: Trocar Atributos</title>
+    <style>
+        body {
+            font-family: sans-serif;
+            text-align: center;
+            margin-top: 50px;
+            background-color: #f4f4f4;
+        }
+        img {
+            width: 200px; /* Define um tamanho para a imagem */
+            height: auto;
+            border: 2px solid #3498db;
+            border-radius: 8px;
+            margin-bottom: 20px;
+        }
+        a {
+            display: block; /* Faz o link ocupar sua própria linha */
+            margin-top: 15px;
+            font-size: 18px;
+            color: #2980b9;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        button {
+            margin-top: 30px;
+            padding: 10px 20px;
+            font-size: 16px;
+            background-color: #27ae60;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.9s;
+        }
+        button:hover {
+            background-color: #2ecc71;
+        }
+    </style>
+</head>
+<body>
+
+    <h2>Troca de Atributos com JavaScript</h2>
+
+    <img id="imagemExemplo" 
+         src="Google.png" 
+         alt="Imagem de exemplo inicial">
+    
+    <a id="linkExemplo" 
+       href="https://www.google.com" 
+       target="_blank">Visitar Google</a>
+
+    <button id="botaoMudar">Mudar Conteúdo</button>
+
+    <script src="script.js"></script>
+</body>
+</html>
